@@ -1,6 +1,9 @@
 var result = window.confirm('じゅんびOK');
 
 var number = Math.floor(Math.random()*3);
+var i = Math.floor(0);
+
+for(i=0;i<3;i++){
 var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を入力して下さい。'));
 
 var message;
@@ -16,5 +19,6 @@ else if(answer<number){
 else{
  message = '0から2の数字を入力して下さい。';
  }
+}
 
 document.getElementById('choice').textContent = message;
