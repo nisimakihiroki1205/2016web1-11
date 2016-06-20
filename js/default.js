@@ -1,5 +1,5 @@
 var i = Math.floor(0);
-for(i=0;i>0;i++){
+for(i=0;i>-1;i++){
 var result = window.confirm('じゅんびOK');
 
 var number = Math.floor(Math.random()*3);
