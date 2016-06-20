@@ -1,7 +1,7 @@
 var i = Math.floor(0);
 for(i=0;i>-1;i++){
 var result = window.confirm('じゅんびOK');
-if(false){break;}
+if(result===false){break;}
 var number = Math.floor(Math.random()*3);
 
 var answer = parseInt(window.prompt('数あてゲーム。0から2の数字を入力して下さい。'));
